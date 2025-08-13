@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DIGITAL SERVICES</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">DIGITAL SERVICES</h1>
+      <button class="menu-toggle" onclick="toggleMenu()" aria-label="Abrir menú">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <!-- Menú oculto, aparece solo al hacer clic en hamburguesa -->
+      <nav class="main-nav" id="mainNav">
+        <a href="#servicios">Servicios</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#toners">Toners de recarga y repuestos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Banner --> 
+    <section class="banner">
+      <div class="banner-content">
+        <h2>Venta y servicio técnico de impresoras Ricoh</h2>
+        <p>Impresoras de mediano y alto volumen — calidad y confianza</p>
+        <a class="btn btn-primary" href="#catalogo">Ver catálogo</a>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="services container">
+      <h3>Servicios</h3>
+      <div class="services-grid">
+        <article class="card">
+          <h4>Venta de impresoras</h4>
+          <p>Modelos Ricoh reacondicionados y adaptados a tus necesidades.</p>
+        </article>
+        <article class="card">
+          <h4>Instalación y configuración</h4>
+          <p>Servicio profesional para garantizar un funcionamiento óptimo.</p>
+        </article>
+        <article class="card">
+          <h4>Soporte técnico</h4>
+          <p>Mantenimiento preventivo y correctivo de equipos Ricoh.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Catálogo -->
+    <section id="catalogo" class="catalog container">
+      <h3>Catálogo destacado</h3>
+      <div class="catalog-grid">
+        <div class="product-card">
+          <img src="imagenes/I MP C3004.jpg" alt="Ricoh MPC 3004">
+          <h4>Ricoh MP C3004</h4>
+          <p>Impresión color y b/n. Alto rendimiento.</p>
+          <a class="btn" href="#contacto">Consultar por WhatsApp</a>
+          <button class="btn" onclick="showSpecs('MP C3004')">Especificaciones</button>
+        </div>
+        <div class="product-card">
+          <img src="imagenes/MP C4501.jpg" alt="Ricoh MPC 4501">
+          <h4>Ricoh MPC 4501</h4>
+          <p>Gran velocidad y calidad de impresión.</p>
+          <a class="btn" href="#contacto">Consultar por WhatsApp</a>
+          <button class="btn" onclick="showSpecs('MP C4501')">Especificaciones</button>
+        </div>
+        <div class="product-card">
+          <img src="imagenes/MP 5002.jpg" alt="Ricoh MP 5002">
+          <h4>Ricoh MP 5002</h4>
+          <p>Ideal para oficinas de alto volumen.</p>
+          <a class="btn" href="#contacto">Consultar por WhatsApp</a>
+          <button class="btn" onclick="showSpecs('MP 5002')">Especificaciones</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Toners y recargas -->
+    <section id="toners" class="toners container">
+      <h3>Toners de recarga y repuestos</h3>
+      <div class="catalog-grid">
+        <div class="product-card">
+          <img src="imagenes/Toner MP C3300.jpg" alt="Toner Ricoh">
+          <h4>Toner Ricoh MP C3300</h4>
+          <p>Alto rendimiento, original y compatible.</p>
+          <a class="btn" href="#contacto">Consultar por WhatsApp</a>
+        </div>
+        <div class="product-card">
+          <img src="imagenes/Toner recarga.jpg" alt="Recarga de toner">
+          <h4>Recarga de toner </h4>
+          <p>Servicio de recarga profesional para impresoras Ricoh de todos los modelos.</p>
+          <a class="btn" href="#contacto">Consultar por WhatsApp</a>
+        </div>
+        <div class="product-card">
+          <img src="imagenes/Toner MP 5002.jpg" alt="Toner MP 5002">
+          <h4>Toner Ricoh MP 5002</h4>
+          <p>Ideal para oficinas de alto volumen.</p>
+          <a class="btn" href="#contacto">Consultar por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto / Mapa -->
+    <section id="contacto" class="contact container">
+      <h3>Contacto</h3>
+      <p>Whatsapp: <strong>+593 99 806 1015</strong></p>
+      <p>Facebook: <a href="https://www.facebook.com/alexander.balza.98">Digital Services</a></p>
+
+      <div class="map-wrapper">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.782097434998!2d-78.52086852429022!3d-0.2441479353765486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d5996a9d61ea5f%3A0x50a8293214c723a2!2sCOPIAS%20L%C3%81SER!5e0!3m2!1ses!2sec!4v1754956066920!5m2!1ses!2sec" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main> 
+
+  <!-- WhatsApp flotante -->
+  <a id="whatsappBtn" target="_blank" class="whatsapp-fab"
+     href="https://wa.me/593998061015?text=Hola%20Digital%20Services%2C%20necesito%20informaci%C3%B3n">
+    <img src="imagenes/WhatsApp.png" alt="WhatsApp" style="width:48px;height:48px;">
+  </a>
+
+  <!-- Modal Especificaciones -->
+  <div id="specModal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <span class="close" onclick="closeSpecs()">&times;</span>
+      <div style="display:flex;align-items:center;">
+        <img id="specImg" src="" alt="" style="width:300px;max-width:100%;margin-right:20px;">
+        <div id="specText"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> DIGITAL SERVICES - Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
