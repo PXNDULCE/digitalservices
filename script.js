@@ -25,7 +25,7 @@ function showSpecs(model) {
   var img = document.getElementById('specImg');
   var text = document.getElementById('specText');
   if(model === 'MP C3004') {
-    img.src = 'imagenes/MP C3004.jpg';
+    img.src = 'imagenes/mpc3004.jpg';
     img.alt = 'Ricoh MP C3004 Especificaciones';
     text.innerHTML = `
       <h4>Ricoh MP C3004</h4>
