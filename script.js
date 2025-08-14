@@ -38,11 +38,11 @@ function showSpecs(model) {
         <li>Volumen mensual recomendado: Alto</li>
       </ul>
     `;
-  } else if(model === 'MP C4501') {
-    img.src = 'imagenes/MP_C4501_specs.jpg';
-    img.alt = 'Ricoh MPC 4501 Especificaciones';
+  } else if(model === 'MP C3300') {
+    img.src = 'imagenes/impc3300.jpg';
+    img.alt = 'Ricoh MP C3300 Especificaciones';
     text.innerHTML = `
-      <h4>Ricoh MPC 4501</h4>
+      <h4>Ricoh MP C3300</h4>
       <ul>
         <li>Impresión color y blanco/negro</li>
         <li>Velocidad: 45 ppm</li>
@@ -51,11 +51,11 @@ function showSpecs(model) {
         <li>Volumen mensual recomendado: Muy alto</li>
       </ul>
     `;
-  } else if(model === 'MP 5002') {
-    img.src = 'imagenes/MP_5002_specs.jpg';
-    img.alt = 'Ricoh MP 5002 Especificaciones';
+  } else if(model === 'MP C4504') {
+    img.src = 'imagenes/mpc4504.jpg';
+    img.alt = 'Ricoh MP C4504 Especificaciones';
     text.innerHTML = `
-      <h4>Ricoh MP 5002</h4>
+      <h4>Ricoh MP C4504</h4>
       <ul>
         <li>Impresión blanco/negro</li>
         <li>Velocidad: 50 ppm</li>
